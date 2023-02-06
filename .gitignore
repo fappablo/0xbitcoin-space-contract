@@ -9,6 +9,8 @@ lerna-debug.log*
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
+.secret
+
 # Runtime data
 pids
 *.pid
@@ -102,3 +104,15 @@ dist
 
 # TernJS port file
 .tern-port
+
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+
+# Hardhat files
+cache
+artifacts
+
